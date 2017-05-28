@@ -28,6 +28,7 @@ public class ServerClient
             System.out.println("User " + loginName + " has connected with password: " + password);
             //Adding the new user to json List of users to be sent to the clients.
             //Sending the list of users online when logged in.
+            Server.addNewUserToJson(loginName);
             writeThread.writeUserList();
 
         }catch (Exception e){e.printStackTrace();}
