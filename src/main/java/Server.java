@@ -22,7 +22,7 @@ public class Server
         try
         {
             serverSocket = new ServerSocket(PORT);
-            serverClients = new ArrayList<>();
+            serverClients = new ArrayList<ServerClient>();
             userList = new JSONObject();
 
             while (true)

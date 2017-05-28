@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnuChat Server.iml" filepath="$PROJECT_DIR$/AnuChat Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnuChatServer.iml" filepath="$PROJECT_DIR$/AnuChatServer.iml" />
     </modules>
   </component>
 </project>

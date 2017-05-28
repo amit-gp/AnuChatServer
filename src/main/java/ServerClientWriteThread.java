@@ -25,7 +25,6 @@ public class ServerClientWriteThread implements Runnable
         }catch (Exception e){e.printStackTrace();}
     }
 
-    @Override
     public void run()
     {
         //while (true)

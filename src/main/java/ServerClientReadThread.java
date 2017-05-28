@@ -21,7 +21,7 @@ public class ServerClientReadThread implements Runnable
         this.socket = clientSocket;
     }
 
-    @Override
+   // @Override
     public void run()
     {
         //The outer catch block is for catching the socket exception which is thrown when a user disconnects. This then still needs the while loop to continue.
